@@ -1,0 +1,8 @@
+parm ../namd2/step5_input.psf
+trajin ../namd2/step7_production0.dcd
+
+autoimage
+
+nativecontacts :LIG&!@H= :1-296&!@H= writecontacts contacts.dat out numcontacts.dat first distance 4.0 resout totalpairs.dat #closest residues that is 4 angstroms away from the masked residue
+
+go
