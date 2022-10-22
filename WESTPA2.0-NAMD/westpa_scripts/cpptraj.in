@@ -1,0 +1,8 @@
+parm step5_input.psf
+trajin seg.dcd
+reference step5_input.pdb
+autoimage
+align reference :3-25,41-65,77-99,120-141,165-189,214-240,249-272@CA,C,N 
+rmsd reference :MOR&!@H= nofit mass out pcoord.dat
+go
+
