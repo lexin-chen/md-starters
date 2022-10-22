@@ -15,8 +15,8 @@
 - Then you submit jobs	
 
 ### Submitting Jobs
-- NEW_sub.sh is submission script used in parallel with multiple GPU
-- run.sh is submission script for running in serial
+- ```NEW_sub.sh``` is submission script used in parallel with multiple GPU
+- ```run.sh``` is submission script for running in serial
 
 - w_run calls for westpa_scripts/runseg.sh. If you wanna stop or change anything you rename that and submit again. 
 
