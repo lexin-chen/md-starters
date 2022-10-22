@@ -1,0 +1,9 @@
+parm ../namd2/step5_input.psf
+trajin ../namd2/step7_production0.dcd
+
+autoimage
+
+solvent @SOD # the ion selected is sodium
+closest 2 :63@CA first closestout closestmols.dat outprefix closest # I want to know the closest 2 sodium ions to residue 63@CA
+
+go
