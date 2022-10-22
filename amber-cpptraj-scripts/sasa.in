@@ -1,0 +1,7 @@
+parm ../setup_files/step5_assembly.psf
+trajin ../restart_md_303.15/step7_production1.dcd
+trajin ../restart_md_303.15/step7_production2.dcd
+#reference ../setup_files/step5_assembly.pdb
+autoimage
+surf R1 :1-296&!(@H=) out sasa.dat time .1
+
