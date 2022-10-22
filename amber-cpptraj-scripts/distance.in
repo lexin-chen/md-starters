@@ -1,0 +1,16 @@
+parm ../namd2/step5_input.psf
+trajin ../namd2/step7_production0.dcd
+
+autoimage
+
+distance na @87218 :50@CA out distance.dat time 0.1
+
+distance D147_hbond :83@OD2 ":MOR@N1" out distance.dat time 0.1
+
+distance H297_hbond :233@ND1 ":MOR@O3" out distance.dat time 0.1
+
+distance disulfide140-217 :76@SG :153@SG out distance.dat time 0.1
+
+go
+
+clear all
