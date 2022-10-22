@@ -10,7 +10,7 @@
 	- bin_target_count= # of starting trajectories
 
 ### About Westpa_Scripts directory
-- w_init calls for westpa_scripts/get_pcoord.sh so if there's an error edit that file.
+- ```w_init``` calls for ```westpa_scripts/get_pcoord.sh``` so if there's an error edit that file.
 - you need a pdb file of the last frame of your MD simulation so you can run get_pcoord.sh
 - Then you submit jobs	
 
