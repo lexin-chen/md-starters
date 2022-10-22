@@ -1,0 +1,7 @@
+parm ../namd2/step5_input.psf   #topology file
+trajin ../namd2/step7_production0.dcd   #traj files
+trajin ../namd2/step7_production1.dcd
+trajin ../namd2/step7_production2.dcd
+autoimage
+minimage imagedist :1-297@CA,C,O,N,H :1-297@CA,C,O,N,H out minimagedist #Calculate minimum non-self imaged distance between atoms in two specified masks.
+go
