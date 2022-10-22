@@ -1,0 +1,8 @@
+parm ../namd2/step5_input.psf
+trajin ../namd2/step7_production0.dcd
+
+autoimage
+hbond All :1-297 nointramol out hbond.agr avgout hbond.dat bridgeout bridge dist 3.3
+
+go
+clear all
