@@ -1,0 +1,10 @@
+parm ../namd2/step5_input.psf
+trajin ../namd2/step7_production0.dcd
+trajin ../namd2/step7_production1.dcd
+trajin ../namd2/step7_production2.dcd
+trajin ../namd2/step7_production3.dcd
+rms rms1 :1-296@CA
+
+atomicfluct allframes :1-296@CA,C,N byres out rmsf.dat
+go
+clear all
