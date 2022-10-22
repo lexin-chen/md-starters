@@ -1,0 +1,25 @@
+# pdb start and end residue: 65-345; 282 residues in total; 64 is ligand
+# pdb transmembrane region: 65-89,103-127,139-161,182-203,227-251,276-302,311-334
+# vmd selection for transmembrane region
+# resid 67 to 89 or resid 105 to 129 or resid 141 to 163 or resid 184 to 205 or resid 229 to 253 or resid 278 to 304 or resid 313 to 336
+
+parm ../namd3/step5_input.psf
+trajin ../namd3/step7_production0.dcd
+
+reference ../namd3/step5_input.pdb
+
+autoimage
+
+align reference :3-25,41-65,77-99,120-141,165-189,214-240,249-272@C,N,CA 
+
+rmsd fluctuation reference :MOR&!@H= nofit mass out morp_lig_rmsd.dat time .1
+
+runavg window 50
+
+rmsd average reference :MOR&!@H= nofit mass out morp_lig_rmsd.dat time .1
+
+#radgyr ToFirst :1-281&!@H= out rg.dat mass nomax time .1 #for running radius of gyration
+
+go
+
+clear all
