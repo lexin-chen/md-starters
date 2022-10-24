@@ -2,7 +2,7 @@
 
 This is helpful if you want to use WESTPA2022.02 edition with NAMD, most of the code is taken from the [WESTPA website](https://github.com/westpa/westpa) with some of my addition/revision.
 
-The pdf includes my notes taken from the [annual review paper](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-070816-033834).
+The pdf includes my notes taken from the [annual review paper](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-070816-033834) for anyone unfamiliar to the method.
 
 ## To get started
 
