@@ -22,7 +22,7 @@
 
 - if you make error in anything delete the traj_seg of that iteration and the corresponding seg_log and you need to delete it from west.h5 using command ```w_truncate -n 100``` if you want to get rid of anything after ite. 99.
 
-- ```westpa_scripts/analysis.py``` can be used if ```w_pdist``` gives you an error about cannot read the h5 file.
+- ```westpa_scripts/analysis.py``` can be used if ```w_pdist```,```w_succ```, any ```w_``` comands gives you an error about cannot read the h5 file.
 
 
 Software Not Mine, cite:<br/>
