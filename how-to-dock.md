@@ -24,7 +24,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
 - Setting up the docked ligand for future steps
 	- ```Module load chimera``` 
 	- Add in hydrogen and standard charges
-	- Save it as <ligand>.mol2 files
+	- Save it as ```<ligand>.mol2``` files
 - Creating psf files for the ligand
 	- Load the mol2 files from step 15 on CHARMM-GUI Input Generator 
 		- Check guess connectivity on the next page
@@ -32,7 +32,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
 - Creating force field for the ligand
 	- Load the mol2 files in step 15 on https://cgenff.umaryland.edu/userRegistration/ 
 	- Check first 2 boxes. 
-	- Get the .str file on the output and put it in your directory
+	- Get the ```.str``` file on the output and put it in your directory
 - Then go to CHARMM-GUI
 
 	
