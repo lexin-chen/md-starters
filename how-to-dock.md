@@ -28,7 +28,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
 - Creating psf files for the ligand
 	- Load the mol2 files from step 15 on CHARMM-GUI Input Generator 
 		- Check guess connectivity on the next page
-		- Download the tgz file to your directories
+		- Download the ```.tgz``` file to your directories
 - Creating force field for the ligand
 	- Load the mol2 files in step 15 on https://cgenff.umaryland.edu/userRegistration/ 
 	- Check first 2 boxes. 
