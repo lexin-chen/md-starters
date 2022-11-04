@@ -1,16 +1,15 @@
 # How to Dock
 ### Preparing the ligands
 - ZINC15 search the ligands 
-- Downloading the mol2 for morphine, naloxegol, naloxone, fentanyl, herkinorin (idk if there are any more but these for now) 
-  - Chrome might not download but if not use firefox or something
-  - Files you should get after: /orange/colina/le.chen/OpoidReceptor/Docking/ZincLigands
-  - Convert to .pdbqt
+- Downloading the ```.mol2``` for desired ligands.
+  - Chrome might not download so use another browser.
+  - Files you should get after: 
+  - Convert to ```.pdbqt```
       - ```ml openbabel```
       - ```obabel *.mol2 -O *.pdbqt```
 
 ### Autodock Vina
-- Run autodock vina for the ligands.
-  - You can poke around here: ```cd /orange/colina/le.chen/OpoidReceptor/Docking/FlexDocking```
+- Run Autodock Vina for the ligands.
 - Using autodocktool to make the flexible receptorr
   - Flexible docking (this is a struggle point; here are some videos that “may” help)
   [Video help](https://www.youtube.com/watch?v=YTQIuUZRNbA&ab_channel=Euz%C3%A9bioGuimar%C3%A3es) or [Link help](
