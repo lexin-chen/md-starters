@@ -1,4 +1,4 @@
-# How to Dock
+# Docking 101
 ### Preparing the ligands
 - ZINC15 search the ligands 
 - Downloading the ```.mol2``` for desired ligands.
