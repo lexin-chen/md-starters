@@ -25,7 +25,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
 	- Add in hydrogen and standard charges
 	- Save it as ```<ligand>.mol2``` files
 - Creating psf files for the ligand
-	- Load the mol2 files from step 15 on CHARMM-GUI Input Generator 
+	- Load the mol2 files from last step on CHARMM-GUI Input Generator 
 		- Check guess connectivity on the next page
 		- Download the ```.tgz``` file to your directories
 - Creating force field for the ligand
