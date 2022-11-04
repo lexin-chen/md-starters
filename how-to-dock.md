@@ -30,8 +30,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
 		- Check guess connectivity on the next page
 		- Download the tgz file to your directories
 - Creating force field for the ligand
-	- Load the mol2 files in step 15 on https://cgenff.umaryland.edu/userRegistration/ (register for an acc w gatormail) 
-
+	- Load the mol2 files in step 15 on https://cgenff.umaryland.edu/userRegistration/ 
 	- Check first 2 boxes. 
 	- Get the .str file on the output and put it in your directory
 - Then go to CHARMM-GUI
