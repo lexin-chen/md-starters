@@ -18,7 +18,7 @@ https://bioinformaticsreview.com/20201010/how-to-perform-flexible-docking-using-
   - The flexible residues I selected: ASP147, W293, H297, Y326 (critical residues)
 
 ### Ligand simulation
-- Convert docked ligand pdbqt into mol2 files
+- Convert docked ligand ```.pdbqt``` into ```.mol2``` files
 	- You can module load openbabel
 	- ```obabel *.pdbqt -O *.mol2```
 - Setting up the docked ligand for future steps
