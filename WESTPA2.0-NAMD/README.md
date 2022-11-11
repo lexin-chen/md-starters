@@ -1,19 +1,19 @@
 # Westpa2 with NAMD
 
-This is helpful if you want to use WESTPA2022.02 edition with NAMD, most of the code is taken from the [WESTPA website](https://github.com/westpa/westpa) with some of my addition/revision.
+This is helpful if you want to use WESTPA2022.02 edition with NAMD, this code is a modified version of the original [WESTPA code](https://github.com/westpa/westpa).
 
 The pdf includes my notes taken from the [annual review paper](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-070816-033834) for anyone unfamiliar to the method.
 
 ## To get started
 
-- common_files where you put config file, psf, pdb
-- tstate file where you define target state
-- bstate directory is where you put all ur restart .xsc .vel .coor
+- ```common_files``` where you put config file, ```psf```, ```pdb```
+- ```tstate``` file where you define target state
+- ```bstate``` directory is where you put all ur restart ```.xsc```, ```.vel```, ```.coor```
 
 
 - west.cfg - where you define bins; 
-	- make sure pcoord lim = # of time you are outputting dcdfreq
-	- bin_target_count= # of starting trajectories
+	- make sure ```pcoord lim = ```# of time you are outputting dcdfreq
+	- ```bin_target_count= ```# of starting trajectories
 
 ### About Westpa_Scripts directory
 - ```w_init``` calls for ```westpa_scripts/get_pcoord.sh``` so if there's an error edit that file.
