@@ -74,23 +74,17 @@ Problems
 - properties to be used as calibration set for specific force-field parameters
 - pdb bank has it in different properties of the folded molecule
 
-| Type of data | Type of system | Phase | Type of properties
- | Force-field parameters |
+| Type of data | Type of system | Phase | Type of properties | Force-field parameters |
 | --- | --- | --- | --- | --- |
-| structural data (exptl) | small molecules | crystalline solid phase | molecular geometry: bond lengths, bond angles
- | ⁍ |
-| spectroscopic data (exptl) | small molecules | gas phase | molecular vibrations: force constants
- | ⁍ |
-| thermodynamic data (exptl) | small molecules, mixtures, solutions | condensed phase | heat of vaporization, density, partition coefficient, free energy of solvation
- | van der Waals: ⁍ |
-| dielectric data (exptl) | small molecules | condensed phase | dielectric permittivity relaxation
- | charges ⁍ |
-| transport data (exptl) | small molecules | condensed phase | diffusion and viscosity coefficients
- | ⁍ |
+| structural data (exptl) | small molecules | crystalline solid phase | molecular geometry: bond lengths, bond angles |  $b_0, \beta_0, \xi_0$|
+| spectroscopic data (exptl) | small molecules | gas phase | molecular vibrations: force constants | $K_b, K_\theta, K_\xi$ |
+| thermodynamic data (exptl) | small molecules, mixtures, solutions | condensed phase | heat of vaporization, density, partition coefficient, free energy of solvation | van der Waals: $C_{12}(ij),C_6(i,j), q_i(\text{final})$ |
+| dielectric data (exptl) | small molecules | condensed phase | dielectric permittivity relaxation | charges $q_i$ |
+| transport data (exptl) | small molecules | condensed phase | diffusion and viscosity coefficients | $C_{12}(ij),C_6(i,j), q_i$ |
 | electron densities (theor.) | small molecules | gas phase | quantum-chemical calculation of atom charges
- | charges ⁍ |
-| energy profiles (theor.) | small molecules | gas phase | quantum-chemical calculation of torsional-angle rotational profiles | ⁍ |
-- energy profiles (theor.)
+ | charges $q_i(\text{initial})$ |
+| energy profiles (theor.) | small molecules | gas phase | quantum-chemical calculation of torsional-angle rotational profiles | $K_\phi, \delta, m$ |
+
 - charges $q_i(\text{initial})$ is used as initial estimate
 - changing a subset of parameters by taking them from other force fields or models may introduce inconsistencies and inaccuracies.
 - consistent between solute and solvent molecules
