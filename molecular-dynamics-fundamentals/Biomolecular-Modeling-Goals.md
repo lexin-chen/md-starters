@@ -19,27 +19,26 @@
  </ol>
  <li><a href="#3-the-search-sampling-problem">The search (sampling) problem</a></li>
  <ol>
-  <li><a href="#3-Methods-to-Search-and-Sample-Configuration-Space">Methods to Search and Sample Configuration Space</a></li>
+  <li><a href="#31-Methods-to-Search-and-Sample-Configuration-Space">Methods to Search and Sample Configuration Space</a></li>
   <ol>
     <li><a href="#311-Deformation-or-Smoothening-of-the-Potential-Energy-Hypersurface-to-Reduce-Barriers">Deformation or Smoothening of the Potential-Energy Hypersurface to Reduce Barriers</a></li>
     <li><a href="#312-Scaling-of-System-Parameters-To-Enhance-Sampling">Scaling of System Parameters To Enhance Sampling</a></li>
     <li><a href="#313-Multi-copy-Simulation-with-a-Given-Relationship-between-the-Copies. ">Multi-copy Simulation with a Given Relationship between the Copies. </a></li>
   </ol>
    <li><a href="#32-Convergence-of-Simulated-Properties ">Convergence of Simulated Properties </a></li>
-   <ol>
     <li><a href="#33-Alleviation-of-the-Search-and-Sample-Problems">Alleviation of the Search and Sample Problems</a></li>
     <li><a href="#34-Aggravation-of-Search-and-Sampling-Problems">Aggravation of Search and Sampling Problems</a></li>
     <li><a href="#35-Perspectives-Regarding-the-Search-and-Sampling-Problem">Perspectives Regarding the Search and Sampling Problem</a></li>
-  </ol>
+    </ol>
  <li><a href="#4-The-ensemble-sampling-problem">The ensemble (sampling) problem</a></li>
- <ul>
+ <ol>
   <li><a href="#41-Free-Energy-Energy-and-Entropy-of-Solvation">Free Energy, Energy, and Entropy of Solvation</a></li>
   <li><a href="#42-Temperature-Dependence-of-Folding-Equilibria">Temperature Dependence of Folding Equilibria</a></li>
   <li><a href="#44-Perspectives-in-Calculating-Entropies">Perspectives in Calculating Entropies</a></li>
     </ol>
  <li><a href="#5-The-experimental-problem">The experimental problem</a></li>
  <ol>
-  <li><a href="#51-Averaging-Limitation">5.1. Averaging Limitation</a></li>
+  <li><a href="#51-Averaging-Limitation">Averaging Limitation</a></li>
  </ol>
  <li><a href="#6-Perspectives-in-Biomolecular-Modeling">Perspectives in Biomolecular Modeling</a></li>
  </ol>
