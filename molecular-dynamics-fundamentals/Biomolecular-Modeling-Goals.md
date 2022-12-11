@@ -1,4 +1,4 @@
-# Biomolecular Modeling: Goals, Problems, Perspectives (2006)
+# [Biomolecular Modeling: Goals, Problems, Perspectives (2006)](https://dasher.wustl.edu/bio5476/reading/angchie-45-4064-06.pdf)
 
 
 <details>
@@ -14,13 +14,13 @@
   <li><a href="#22-Calibration-of-Force-Field-Parameters">Calibration of Force-Field Parameters</a></li>
   <li><a href="#23-Long-range-forces">Long range forces</a></li>
   <li><a href="#24-Testing-Biomolecular-Force-Field">Testing Biomolecular Force Field</a>d</li>
-  <li><a href="#2-5-Perspectives-in-Force-Field-Development">Perspectives in Force-Field Development</a></li>
+  <li><a href="#25-Perspectives-in-Force-Field-Development">Perspectives in Force-Field Development</a></li>
  </ol>
- <li>Third</li>
+ <li><a href="#3-the-search-sampling-problem">The search (sampling) problem</a></li>
  <ol>
-  <li>Sub of Second</li>
+  <li><a href="#3-Methods-to-Search-and-Sample-Configuration-Space">Methods to Search and Sample Configuration Space</a></li>
   <ol>
-    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#311-Deformation-or-Smoothening-of-the-Potential-Energy-Hypersurface-to-Reduce-Barriers">Deformation or Smoothening of the Potential-Energy Hypersurface to Reduce Barriers</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
   </ol>
