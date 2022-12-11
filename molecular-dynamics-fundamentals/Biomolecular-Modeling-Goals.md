@@ -7,7 +7,7 @@
 <ul class="roman">
  <li><a href="#1Introduction">1. Introduction</a></li>
  <ul class="square">
-  <li><a href="###Four-choices-for-modelling-a-biomolecular-system">Four choices for modelling a biomolecular system</a></li>
+  <li><a href="###four-choices-for-modelling-a-biomolecular-system">Four choices for modelling a biomolecular system</a></li>
  </ul>
  <li>Second</li>
  <ul class="square">
