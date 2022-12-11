@@ -26,11 +26,10 @@
     <li><a href="#313-Multi-copy-Simulation-with-a-Given-Relationship-between-the-Copies. ">Multi-copy Simulation with a Given Relationship between the Copies. </a></li>
   </ol>
    <li><a href="#32-Convergence-of-Simulated-Properties ">Convergence of Simulated Properties </a></li>
-   
+   <ol>
     <li><a href="#33-Alleviation-of-the-Search-and-Sample-Problems">Alleviation of the Search and Sample Problems</a></li>
     <li><a href="#34-Aggravation-of-Search-and-Sampling-Problems">Aggravation of Search and Sampling Problems</a></li>
     <li><a href="#35-Perspectives-Regarding-the-Search-and-Sampling-Problem">Perspectives Regarding the Search and Sampling Problem</a></li>
-  
   </ol>
  <li><a href="#4-The-ensemble-sampling-problem">The ensemble (sampling) problem</a></li>
  <ul>
