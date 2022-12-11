@@ -1,6 +1,11 @@
 # Biomolecular Modeling: Goals, Problems, Perspectives (2006)
 
-# **Table of contents**
+
+<details>
+    <summary> Table of contents </summary>
+    <a href="#1.Introduction">1. Introduction</a>
+</details>
+
 
 # 1.Introduction
 
@@ -26,18 +31,16 @@
 | Continuum mechods (hydrodynamics and electrostatics)  | Electrical continuum, velocity continuum etc. | Rheological properties  | supramolecular |
 | Kinetic equations | Populations of species | Population dynamics, signal transduction | macroscopic |
 
-Limitations of present day biomolecular modelling — Four problems in biomolecular modeling
-
-| Force field problem | 1) very small (free) energy differences, many interactions 2) entropic effects 3) variety of atoms and molecules |
+| Four problems in biomolecular modeling| Limitations of present day biomolecular modelling |
 | --- | --- |
-| search problem | 1) convergence 2) alleviating factors 3) aggravating factors |
-| ensemble problem | 1) entropy 2) averaging 3) nonlinear averaging |
-| experimental problem | 1) averaging 2) insufficient number of data 3) insufficient accuracy of data |
+| Force field problem | 1. very small (free) energy differences, many interactions <br> 2. entropic effects <br> 3. variety of atoms and molecules |
+| Search problem | 1. convergence <br> 2. alleviating factors <br> 3. aggravating factors |
+| Ensemble problem | 1. entropy <br> 2. averaging <br> 3. nonlinear averaging |
+| Experimental problem | 1. averaging <br> 2. insufficient number of data <br> 3. insufficient accuracy of data |
 
-Why computer simulation is used in science?
-
+|Why computer simulation is used in science?| Examples |
+| --- | --- |
 | 1. experiment is impossible | collision of stars or galaxies / weather forecast |
-| --- | --- |
 | 2. experiment is danger | flight simulation / explosion simulation |
 | 3. experiment is expensive | high pressure simulation / wind channel simulation |
 | 4. experiment is blind |  Many properties cannot be observed in very short time scales and very small space scales |
@@ -56,13 +59,13 @@ Problems
 
 - very small (free) energy differences, many interactions
     - result from summation over many atom pairs contributing to non-bonded interaction.
-    - accuracy ↓ when # of atom-pairs ↑
+    - # of atom-pairs ↑ $\rightarrow$ accuracy ↓ 
 - entropic effects
     - only at 0 K that there is no entropy and we are not interested in that.
     - entropy is the measure of the extent of conformational space accessible to the molecular system at a given temperature T.
     - finding global minimum is meaningless when its entropy accounts for a sizeable fraction of its free energy.
     - parameters should be derive to be consistent w/ entropic effects.
-    - contribution of entropy to free energy F = U - TS
+    - contribution of entropy to free energy $F = U - TS$
 - variety of atoms and molecules
     - if force field parameters are transferable between atom groups or atoms, then this problem may be alleviated.
 
@@ -81,8 +84,7 @@ Problems
 | thermodynamic data (exptl) | small molecules, mixtures, solutions | condensed phase | heat of vaporization, density, partition coefficient, free energy of solvation | van der Waals: $C_{12}(ij),C_6(i,j), q_i(\text{final})$ |
 | dielectric data (exptl) | small molecules | condensed phase | dielectric permittivity relaxation | charges $q_i$ |
 | transport data (exptl) | small molecules | condensed phase | diffusion and viscosity coefficients | $C_{12}(ij),C_6(i,j), q_i$ |
-| electron densities (theor.) | small molecules | gas phase | quantum-chemical calculation of atom charges
- | charges $q_i(\text{initial})$ |
+| electron densities (theor.) | small molecules | gas phase | quantum-chemical calculation of atom charges | charges $q_i(\text{initial})$ |
 | energy profiles (theor.) | small molecules | gas phase | quantum-chemical calculation of torsional-angle rotational profiles | $K_\phi, \delta, m$ |
 
 - charges $q_i(\text{initial})$ is used as initial estimate
@@ -97,7 +99,7 @@ Problems
 - two charged molecules — interaction energy proportional to $r^{-1}$ and corresponding force proportional to  $r^{-2}$
 - two neutral molecules — interaction energy proportional to $r^{-2}$ and corresponding force proportional to  $r^{-3}$
 - two neutral molecules w/ dipole moments — interaction energy proportional to $r^{-3}$ and corresponding force proportional to  $r^{-4}$
-    - will increase with increasing dipoles (e.g. quadrupole moment $r^{-5}$
+    - will increase with increasing dipoles (e.g. quadrupole moment $r^{-5}$)
 - $\int_{0}^{\infty} V^{el}4\pi r^2 dr$
 
 ![Untitled](Biomolecular%20Modeling%20Goals,%20Problems,%20Perspective%207dd9ed7171354f25938e3aafcd0e99e0/Untitled.png)
@@ -205,7 +207,7 @@ $$
 ### 3.1.3. Multi-copy Simulation with a Given Relationship between the Copies.
 
 1. genetic algorithm
-2. [replica-exchange algorithm](https://www.pnas.org/doi/10.1073/pnas.1605089113#:~:text=Replica%20exchange%20molecular%20dynamics%20(REMD,temperatures%20that%20are%20swapped%20periodically.)
+2. [replica-exchange algorithm](https://doi.org/10.1073/pnas.1605089113)
     1. multiple copies each simulated at distinct temperature
     2. close enough temperatures, copies are exchanged through exchange probability based on Boltzmann factor
 3. [SWARM-type MD](https://pubs.acs.org/doi/10.1021/jp9806258) — combining a collection of copies of the system each with its own traj into a cooperative multicopy system that searches configurational space. 
@@ -307,9 +309,9 @@ How can biomolecular models be extended, improved, or simplied?
     - averaging over atomic degrees of freedom will allow for simulation of slower processes
 
 <aside>
-🧠 Why simulation and modeling? 
-1. To provide a microscopic picture of unrivaled resolution in time, space, and energy that compliments a limited set of properties to be observed experimentally. 
-2. System parameters can be changed easily to study cause-effect relationships → enhanced understanding of biomolecular systems.
+    <h2>🧠 Why simulation and modeling? </h2>
+<p>1. To provide a microscopic picture of unrivaled resolution in time, space, and energy that compliments a limited set of properties to be observed experimentally. <br>
+2. System parameters can be changed easily to study cause-effect relationships → enhanced understanding of biomolecular systems.</p>
 
 </aside>
 
