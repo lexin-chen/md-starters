@@ -1,8 +1,9 @@
-# [Biomolecular Modeling: Goals, Problems, Perspectives (2006)](https://dasher.wustl.edu/bio5476/reading/angchie-45-4064-06.pdf)
+# Biomolecular Modeling: Goals, Problems, Perspectives (2006)
+[Angew. Chem. Int. Ed. 2006, 45, 4064 – 4092](https://dasher.wustl.edu/bio5476/reading/angchie-45-4064-06.pdf)
 
 
 <details>
-    <summary> Table of contents </summary>
+    <summary> <h2>Table of Contents </h2></summary>
 
 <ol>
  <li><a href="#1-Introduction">Introduction</a></li>
@@ -21,28 +22,27 @@
   <li><a href="#3-Methods-to-Search-and-Sample-Configuration-Space">Methods to Search and Sample Configuration Space</a></li>
   <ol>
     <li><a href="#311-Deformation-or-Smoothening-of-the-Potential-Energy-Hypersurface-to-Reduce-Barriers">Deformation or Smoothening of the Potential-Energy Hypersurface to Reduce Barriers</a></li>
-    <li><a href="#1Introduction">1. Introduction</a></li>
-    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#312-Scaling-of-System-Parameters-To-Enhance-Sampling">Scaling of System Parameters To Enhance Sampling</a></li>
+    <li><a href="#313-Multi-copy-Simulation-with-a-Given-Relationship-between-the-Copies. ">Multi-copy Simulation with a Given Relationship between the Copies. </a></li>
   </ol>
-   <li>Sub of Second</li>
-   <ol class="roman">
-    <li><a href="#1Introduction">1. Introduction</a></li>
-    <li><a href="#1Introduction">1. Introduction</a></li>
-    <li><a href="#1Introduction">1. Introduction</a></li>
+   <li><a href="#32-Convergence-of-Simulated-Properties ">Convergence of Simulated Properties </a></li>
+   
+    <li><a href="#33-Alleviation-of-the-Search-and-Sample-Problems">Alleviation of the Search and Sample Problems</a></li>
+    <li><a href="#34-Aggravation-of-Search-and-Sampling-Problems">Aggravation of Search and Sampling Problems</a></li>
+    <li><a href="#35-Perspectives-Regarding-the-Search-and-Sampling-Problem">Perspectives Regarding the Search and Sampling Problem</a></li>
+  
   </ol>
-  </ol>
- <li>4</li>
- <ul class="square">
-  <li>Sub of Second</li>
-  <li>Another Sub</li>
-  <li>Sub of Second</li>
-  <li>Sub of Second</li>
+ <li><a href="#4-The-ensemble-sampling-problem">The ensemble (sampling) problem</a></li>
+ <ul>
+  <li><a href="#41-Free-Energy-Energy-and-Entropy-of-Solvation">Free Energy, Energy, and Entropy of Solvation</a></li>
+  <li><a href="#42-Temperature-Dependence-of-Folding-Equilibria">Temperature Dependence of Folding Equilibria</a></li>
+  <li><a href="#44-Perspectives-in-Calculating-Entropies">Perspectives in Calculating Entropies</a></li>
     </ol>
- <li><a href="#1Introduction">5. Introduction</a></li>
- <ol class="square">
-  <li>Sub of Second</li>
+ <li><a href="#5-The-experimental-problem">The experimental problem</a></li>
+ <ol>
+  <li><a href="#51-Averaging-Limitation">5.1. Averaging Limitation</a></li>
  </ol>
- <li>6</li>
+ <li><a href="#6-Perspectives-in-Biomolecular-Modeling">Perspectives in Biomolecular Modeling</a></li>
  </ol>
  
 </ol>
