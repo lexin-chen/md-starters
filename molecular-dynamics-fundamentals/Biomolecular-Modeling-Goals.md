@@ -23,9 +23,9 @@
   <ol>
     <li><a href="#311-Deformation-or-Smoothening-of-the-Potential-Energy-Hypersurface-to-Reduce-Barriers">Deformation or Smoothening of the Potential-Energy Hypersurface to Reduce Barriers</a></li>
     <li><a href="#312-Scaling-of-System-Parameters-To-Enhance-Sampling">Scaling of System Parameters To Enhance Sampling</a></li>
-    <li><a href="#313-Multi-copy-Simulation-with-a-Given-Relationship-between-the-Copies. ">Multi-copy Simulation with a Given Relationship between the Copies. </a></li>
+    <li><a href="#313-Multi-copy-Simulation-with-a-Given-Relationship-between-the-Copies">Multi-copy Simulation with a Given Relationship between the Copies. </a></li>
   </ol>
-   <li><a href="#32-Convergence-of-Simulated-Properties ">Convergence of Simulated Properties </a></li>
+   <li><a href="#32-Convergence-of-Simulated-Properties">Convergence of Simulated Properties </a></li>
     <li><a href="#33-Alleviation-of-the-Search-and-Sample-Problems">Alleviation of the Search and Sample Problems</a></li>
     <li><a href="#34-Aggravation-of-Search-and-Sampling-Problems">Aggravation of Search and Sampling Problems</a></li>
     <li><a href="#35-Perspectives-Regarding-the-Search-and-Sampling-Problem">Perspectives Regarding the Search and Sampling Problem</a></li>
