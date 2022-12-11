@@ -28,19 +28,11 @@
 
 Limitations of present day biomolecular modelling — Four problems in biomolecular modeling
 
-| Force field problem | 1) very small (free) energy differences, many interactions 
-2) entropic effects
-3) variety of atoms and molecules |
+| Force field problem | 1) very small (free) energy differences, many interactions 2) entropic effects 3) variety of atoms and molecules |
 | --- | --- |
-| search problem | 1) convergence
-2) alleviating factors
-3) aggravating factors |
-| ensemble problem | 1) entropy
-2) averaging
-3) nonlinear averaging |
-| experimental problem | 1) averaging
-2) insufficient number of data
-3) insufficient accuracy of data |
+| search problem | 1) convergence 2) alleviating factors 3) aggravating factors |
+| ensemble problem | 1) entropy 2) averaging 3) nonlinear averaging |
+| experimental problem | 1) averaging 2) insufficient number of data 3) insufficient accuracy of data |
 
 Why computer simulation is used in science?
 
@@ -82,12 +74,24 @@ Problems
 - properties to be used as calibration set for specific force-field parameters
 - pdb bank has it in different properties of the folded molecule
 
-[how force field is derived (pic of table)](https://www.notion.so/how-force-field-is-derived-pic-of-table-b736bfca938343afb1ff4bc317dd59dd)
-
-![Untitled](Biomolecular%20Modeling%20Goals,%20Problems,%20Perspective%207dd9ed7171354f25938e3aafcd0e99e0/Untitled.png)
-
+| Type of data | Type of system | Phase | Type of properties
+ | Force-field parameters |
+| --- | --- | --- | --- | --- |
+| structural data (exptl) | small molecules | crystalline solid phase | molecular geometry: bond lengths, bond angles
+ | ⁍ |
+| spectroscopic data (exptl) | small molecules | gas phase | molecular vibrations: force constants
+ | ⁍ |
+| thermodynamic data (exptl) | small molecules, mixtures, solutions | condensed phase | heat of vaporization, density, partition coefficient, free energy of solvation
+ | van der Waals: ⁍ |
+| dielectric data (exptl) | small molecules | condensed phase | dielectric permittivity relaxation
+ | charges ⁍ |
+| transport data (exptl) | small molecules | condensed phase | diffusion and viscosity coefficients
+ | ⁍ |
+| electron densities (theor.) | small molecules | gas phase | quantum-chemical calculation of atom charges
+ | charges ⁍ |
+| energy profiles (theor.) | small molecules | gas phase | quantum-chemical calculation of torsional-angle rotational profiles | ⁍ |
 - energy profiles (theor.)
-- charges $q_i(initial)$ is used as initial estimate
+- charges $q_i(\text{initial})$ is used as initial estimate
 - changing a subset of parameters by taking them from other force fields or models may introduce inconsistencies and inaccuracies.
 - consistent between solute and solvent molecules
 - free energy of solvation
@@ -102,7 +106,7 @@ Problems
     - will increase with increasing dipoles (e.g. quadrupole moment $r^{-5}$
 - $\int_{0}^{\infty} V^{el}4\pi r^2 dr$
 
-![Untitled](Biomolecular%20Modeling%20Goals,%20Problems,%20Perspective%207dd9ed7171354f25938e3aafcd0e99e0/Untitled%201.png)
+![Untitled](Biomolecular%20Modeling%20Goals,%20Problems,%20Perspective%207dd9ed7171354f25938e3aafcd0e99e0/Untitled.png)
 
 - Two techniques are used to evaluate long-range (electrostatic) interactions
 
@@ -146,7 +150,7 @@ Problems
 - biomolecular system cannot be described by a single global min energy configuration or structure, but only by a stat mech ensemble of configurations, in which the weight of the configuration is given by the Boltzmann factor
 
 $$
-P(x)~\text{\textasciitilde}~\exp(-V(x)/k_BT)
+P(x)\sim \exp(-V(x)/k_BT)
 $$
 
 - exponential weighting implies that high energy regions of the energy hypersurface will not contribute configurations that are relevant to the state of the system, unless they are very numerous (entropy).
