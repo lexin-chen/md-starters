@@ -4,6 +4,21 @@
 <details>
     <summary> Table of contents </summary>
     <a href="#1Introduction">1. Introduction</a>
+    <ul>
+    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#">Link 2</a></li>
+</ul>
+    <ul>
+ <li><a href="#1Introduction">1. Introduction</a></li>
+ <li>Second
+ <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+  <li style="margin-left:2em">Sub of Second</li>
+  <li style="margin-left:2em; padding-bottom: 0;">Another Sub</li>
+ </ul>
+ </li>
+ <li>Third</li>
+ <li>Fourth </li>
+</ol>
 </details>
 
 
