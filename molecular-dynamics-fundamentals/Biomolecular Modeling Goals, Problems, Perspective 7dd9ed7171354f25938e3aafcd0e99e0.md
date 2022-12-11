@@ -3,7 +3,7 @@
 
 <details>
     <summary> Table of contents </summary>
-    <a href="#1.Introduction">1. Introduction</a>
+    <a href="#1Introduction">1. Introduction</a>
 </details>
 
 
