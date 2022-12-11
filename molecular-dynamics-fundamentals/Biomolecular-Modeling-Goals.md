@@ -3,18 +3,49 @@
 
 <details>
     <summary> Table of contents </summary>
-
- <ul>
+<a href="#1Introduction">1. Introduction</a>
+<ul class="roman">
  <li><a href="#1Introduction">1. Introduction</a></li>
- <li>Second
- <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-  <li style="margin-left:2em">Sub of Second</li>
-  <li style="margin-left:2em; padding-bottom: 0;">Another Sub</li>
+ <ul class="square">
+  <li><a href="###Four-choices-for-modelling-a-biomolecular-system">Four choices for modelling a biomolecular system</a></li>
  </ul>
- </li>
+ <li>Second</li>
+ <ul class="square">
+  <li>Sub of Second</li>
+  <li>Another Sub</li>
+  <li>Sub of Second</li>
+  <li>Sub of Second</li>
+ </ul>
  <li>Third</li>
- <li>Fourth </li>
-</ol>
+ <ul class="square">
+  <li>Sub of Second</li>
+  <ul class="roman">
+    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#1Introduction">1. Introduction</a></li>
+  </ul>
+   <li>Sub of Second</li>
+   <ul class="roman">
+    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#1Introduction">1. Introduction</a></li>
+    <li><a href="#1Introduction">1. Introduction</a></li>
+  </ul>
+  </ul>
+ <li>4</li>
+ <ul class="square">
+  <li>Sub of Second</li>
+  <li>Another Sub</li>
+  <li>Sub of Second</li>
+  <li>Sub of Second</li>
+    </ul>
+ <li><a href="#1Introduction">5. Introduction</a></li>
+ <ul class="square">
+  <li>Sub of Second</li>
+ </ul>
+ <li>6</li>
+ </ul>
+ 
+</ul>
 </details>
 
 
