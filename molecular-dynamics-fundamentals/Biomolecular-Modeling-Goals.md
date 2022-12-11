@@ -3,49 +3,49 @@
 
 <details>
     <summary> Table of contents </summary>
-<a href="#1Introduction">1. Introduction</a>
-<ul class="roman">
- <li><a href="#1Introduction">1. Introduction</a></li>
- <ul class="square">
+
+<ol>
+ <li><a href="#1Introduction">Introduction</a></li>
+ <ol>
   <li><a href="#four-choices-for-modelling-a-biomolecular-system">Four choices for modelling a biomolecular system</a></li>
- </ul>
- <li>Second</li>
- <ul class="square">
+ </ol>
+ <li><a href="#Force-field-problem">Force field problem</a></li>
+ <ol>
   <li>Sub of Second</li>
   <li>Another Sub</li>
   <li>Sub of Second</li>
   <li>Sub of Second</li>
- </ul>
+ </ol>
  <li>Third</li>
- <ul class="square">
+ <ol>
   <li>Sub of Second</li>
-  <ul class="roman">
+  <ol>
     <li><a href="#1Introduction">1. Introduction</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
-  </ul>
+  </ol>
    <li>Sub of Second</li>
-   <ul class="roman">
+   <ol class="roman">
     <li><a href="#1Introduction">1. Introduction</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
     <li><a href="#1Introduction">1. Introduction</a></li>
-  </ul>
-  </ul>
+  </ol>
+  </ol>
  <li>4</li>
  <ul class="square">
   <li>Sub of Second</li>
   <li>Another Sub</li>
   <li>Sub of Second</li>
   <li>Sub of Second</li>
-    </ul>
+    </ol>
  <li><a href="#1Introduction">5. Introduction</a></li>
- <ul class="square">
+ <ol class="square">
   <li>Sub of Second</li>
- </ul>
+ </ol>
  <li>6</li>
- </ul>
+ </ol>
  
-</ul>
+</ol>
 </details>
 
 
