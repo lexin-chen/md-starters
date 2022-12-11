@@ -5,11 +5,11 @@
     <summary> Table of contents </summary>
 
 <ol>
- <li><a href="#1Introduction">Introduction</a></li>
+ <li><a href="#1-Introduction">Introduction</a></li>
  <ol>
   <li><a href="#four-choices-for-modelling-a-biomolecular-system">Four choices for modelling a biomolecular system</a></li>
  </ol>
- <li><a href="#Force-field-problem">Force field problem</a></li>
+ <li><a href="#2-Force-field-problem">Force field problem</a></li>
  <ol>
   <li>Sub of Second</li>
   <li>Another Sub</li>
@@ -49,7 +49,7 @@
 </details>
 
 
-# 1.Introduction
+# 1. Introduction
 
 - Quantum mechanics governs interaction between electrons of atoms and molecules.
 - Nonbonded interactions can be well described by classical potential function or force field.
