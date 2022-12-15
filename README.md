@@ -1,3 +1,8 @@
+# OpioidProject
+
+This repository compiles all of my descriptions/ scripts for my first Ph.D. project, which harnesses supercomputers to investigate ligand-receptor interactions in the µ-opioid receptor, a membrane protein responsible for pain relief. 
+
+
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>µ-opioid receptor literature review compilation</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
