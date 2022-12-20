@@ -1,6 +1,5 @@
 # 7. Molecular Dynamics Simulations Methods (Leach)
-
-# Table of Contents
+Adapted the outline from Chapter 7 of Molecular Modelling by Andrew Leach
 
 ## 7.1. Introduction
 
