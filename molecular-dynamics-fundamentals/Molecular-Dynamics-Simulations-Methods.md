@@ -83,29 +83,29 @@ $$
 - ***velocity Verlet* method** — gives positions, velocities, and accelerations at the same time and does not compromise precision:
     - used in NAMD
         
-        $$
-        r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t) \tag{7.14}
-        $$
-        
-    
-    $$
-    v(t+\delta t)=v(t)+\frac{1}{2}\delta t [a(t)+a(t+\delta t)] \tag{7.15}
-    $$
-    
-    - 3-stage procedure because in 7.15, new velocities requires acceleration at both $t \ \text{and} \ t+\delta t$
-    - First step, position at $t+\delta t$ is calculated from 7.14.
-    - Velocity at half step is determined using:
-    
-    $$
-    v(t+\frac{1}{2}\delta t)=v(t)+\frac{1}{2}\delta ta(t) \tag{7.16}
-    $$
-    
-    - New forces are next computed from current positions, thus giving $a(t+\delta t).$
-    - In the final step, the velocities at time $t+\delta t$ are determined using
-    
-    $$
-    v(t+\delta t)= v(t+\frac{1}{2}\delta t)+\frac{1}{2}\delta t a (t+\delta t) \tag{7.17}
-    $$
+$$
+r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t) \tag{7.14}
+$$
+
+
+$$
+v(t+\delta t)=v(t)+\frac{1}{2}\delta t [a(t)+a(t+\delta t)] \tag{7.15}
+$$
+
+- 3-stage procedure because in 7.15, new velocities requires acceleration at both $t \ \text{and} \ t+\delta t$
+- First step, position at $t+\delta t$ is calculated from 7.14.
+- Velocity at half step is determined using:
+
+$$
+v(t+\frac{1}{2}\delta t)=v(t)+\frac{1}{2}\delta ta(t) \tag{7.16}
+$$
+
+- New forces are next computed from current positions, thus giving $a(t+\delta t).$
+- In the final step, the velocities at time $t+\delta t$ are determined using
+
+$$
+v(t+\delta t)= v(t+\frac{1}{2}\delta t)+\frac{1}{2}\delta t a (t+\delta t) \tag{7.17}
+$$
     
 
 ### 7.3.3. Which Integration Algorithm is Most Appropriate?
@@ -159,9 +159,9 @@ $$
     - forces within a system are classified into a number of groups according to how rapidly the force varies over time.
     - each group has its own time step while maintaining accuracy and numerical stability.
     
-    $$
-    \Gamma(t)=e^iLt\Gamma~(t=0) \tag{7.31}
-    $$
+$$
+\Gamma(t)=e^iLt\Gamma~(t=0) \tag{7.31}
+$$
     
 - *Liouville* operator, L in the case of molecular system containing *N* atoms (and so *3N* coordinate)
 
@@ -174,10 +174,10 @@ $$
         1. initial velocities are adjusted so that the total momentum of the system is zero. 
         2. 
         3. Having set up the initial velocity, the simulation commences. 
-    
-    $$
-    p(v_{ix})=\left(\frac{m_i}{2\pi k_BT}\right)^{1/2}\exp \left[ \frac{1}{2} \frac{m_iv_{ix}^2}{k_BT}\right] \tag{7.35}
-    $$
+
+$$
+p(v_{ix})=\left(\frac{m_i}{2\pi k_BT}\right)^{1/2}\exp \left[ \frac{1}{2} \frac{m_iv_{ix}^2}{k_BT}\right] \tag{7.35}
+$$
     
 3. The force on each atoms is calculated by differentiating the potential function at each step. 
     1. force on an atom may include contributions from various terms in the force field such as bonds, angles, torsional terms, and non-bonded interactions
@@ -270,7 +270,7 @@ $$
 - In here, we will explore a group of techniques that incorporate the effects of solvent without any explicit specific solvent molecules to be present.
 
 <aside>
-🔮 **Potential of mean force (PMF)** — describes how the free energy changes as a particular coordinate is varied.
+🔮 ***Potential of mean force (PMF)*** — describes how the free energy changes as a particular coordinate is varied.
 
 - such as, separation of two atoms or torsion angle of a bond is varied.
 - free energy change described by PMF includes averaged effects of the solvent.
