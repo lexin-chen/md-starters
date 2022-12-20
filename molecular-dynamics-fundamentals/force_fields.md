@@ -27,7 +27,7 @@
 - Force field contains terms that describe the interaction between non-bonded parts of the system.
 
 $$
-U(r^\Nu) = \sum_{bonds}\frac{k_i}{2}(l_i-l_{i,0})^2+\sum_{angles}\frac{k_i}{2}(\theta_i-\theta_{i,0})^2+\sum_{torsions}\frac{V_n}{2}(1+\cos(n\omega-\gamma))+\sum_{i=1}^N\sum_{j=1}^N\left(4\varepsilon_{ij}\left[\left(\frac{\sigma_{ij}}{r_{ij}}^{12}\right)-\left(\frac{\sigma_{ij}}{r_{ij}}^{6}\right)\right]+\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}\right) \tag{4.1}
+U(r^N) = \sum_{bonds}\frac{k_i}{2}(l_i-l_{i,0})^2+\sum_{angles}\frac{k_i}{2}(\theta_i-\theta_{i,0})^2+\sum_{torsions}\frac{V_n}{2}(1+\cos(n\omega-\gamma))+\sum_{i=1}^N\sum_{j=1}^N\left(4\varepsilon_{ij}\left[\left(\frac{\sigma_{ij}}{r_{ij}}^{12}\right)-\left(\frac{\sigma_{ij}}{r_{ij}}^{6}\right)\right]+\frac{q_iq_j}{4\pi\varepsilon_0r_{ij}}\right) \tag{4.1}
 $$
 
 - Potential Energy function — function of the positions )r_ of N particles
@@ -168,4 +168,3 @@ Has two adjustable parameters: collision diameter, sigma and well depth, epsilon
 - To calculate LJ interaction energy between two C-O molecules using two-site model would require van der waal parameters for carbon-carbon interactions and O-O interaction but also C-O interactions
 - System containing N different types of atoms would require
 - The charge-charge contribution to the potential energy is due to all pairs of charges in the central simulation box can be written:
--
