@@ -270,7 +270,7 @@ $$
 - In here, we will explore a group of techniques that incorporate the effects of solvent without any explicit specific solvent molecules to be present.
 
 <aside>
-🔮 ***Potential of mean force (PMF)*** — describes how the free energy changes as a particular coordinate is varied.
+🔮 Potential of mean force (PMF) — describes how the free energy changes as a particular coordinate is varied.
 
 - such as, separation of two atoms or torsion angle of a bond is varied.
 - free energy change described by PMF includes averaged effects of the solvent.
