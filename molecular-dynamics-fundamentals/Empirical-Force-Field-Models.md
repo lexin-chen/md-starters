@@ -127,10 +127,9 @@ $$
 - Polarization- electrostatic interactions arises from changes in charge distribution of a molecule or atom caused by external field.
     - Effect of the external electric field is to induce dipole in the molecule.
     
-    $$
-    \mu_{ind}= \alpha\Epsilon 
-    $$
-    
+$$
+\mu_{ind}= \alpha\Epsilon 
+$$   
     - mu is induced dipole moment proportional to the electric field, with the constant of proportionality being the polarizability alpha
 - For isolated atoms, polarizability is isotropic
     - does not depend on orientation
