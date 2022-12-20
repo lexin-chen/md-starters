@@ -28,50 +28,50 @@
 - Many algorithms for integrating the equations of motion using finite difference
     - all assume that the positions and dynamic properties (velocities, accelerations, etc.) can be approx. by Taylor series expansion:
         
-        $$
-        r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t)+\frac{1}{6}\delta t^3b(t)+\frac{1}{24}\delta t^4 c(t)+... \tag{7.2}
-        $$
+$$
+r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t)+\frac{1}{6}\delta t^3b(t)+\frac{1}{24}\delta t^4 c(t)+... \tag{7.2}
+$$
+
+$$
+v(t+\delta t)= v(t)+\delta ta(t) +\frac{1}{2}\delta t^2b(t)+\frac{1}{6}\delta t^3c(t)+... \tag{7.3}
+$$
+
+$$
+a(t+\delta t)= a(t)+\delta tb(t) +\frac{1}{2}\delta t^2c(t)+... \tag{7.4}
+$$
+
+$$
+b(t+\delta t)= b(t)+\delta tc(t) +... \tag{7.5}
+$$
         
-        $$
-        v(t+\delta t)= v(t)+\delta ta(t) +\frac{1}{2}\delta t^2b(t)+\frac{1}{6}\delta t^3c(t)+... \tag{7.3}
-        $$
-        
-        $$
-        a(t+\delta t)= a(t)+\delta tb(t) +\frac{1}{2}\delta t^2c(t)+... \tag{7.4}
-        $$
-        
-        $$
-        b(t+\delta t)= b(t)+\delta tc(t) +... \tag{7.5}
-        $$
-        
-    - a is acceleration and b is third derivative.
+   - a is acceleration and b is third derivative.
 
 - **Verlet algorithm** is probably the most widely used method for integrating the equations of motion in molecular dynamics simulation
     - uses the positions and accelerations at time t, and the positions from the previous step, $r(t=\delta t)$, to calculate the new positions at time t
     
-    $$
-    r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t)+... \ \text{new position} \tag{7.6}
-    $$
-    
-    $$
-    r(t-\delta t)= r(t)-\delta tv(t) +\frac{1}{2}\delta t^2a(t)-...  \ \text{position from previous step}\tag{7.6}
-    $$
-    
-    Adding them together:
-    
-    $$
-    r(t+\delta t)= 2r(t)- r(t-\delta t) +\delta t^2a(t)  \tag{7.8}
-    $$
-    
-    velocity:
-    
-    $$
-    v(t)=[r(t+\delta t)-r(t-\delta t)]/2\delta t \tag{7.9}
-    $$
+$$
+r(t+\delta t)= r(t)+\delta tv(t) +\frac{1}{2}\delta t^2a(t)+... \ \text{new position} \tag{7.6}
+$$
+
+$$
+r(t-\delta t)= r(t)-\delta tv(t) +\frac{1}{2}\delta t^2a(t)-...  \ \text{position from previous step}\tag{7.6}
+$$
+
+Adding them together:
+
+$$
+r(t+\delta t)= 2r(t)- r(t-\delta t) +\delta t^2a(t)  \tag{7.8}
+$$
+
+velocity:
+
+$$
+v(t)=[r(t+\delta t)-r(t-\delta t)]/2\delta t \tag{7.9}
+$$
     
 - Implementation of Verlet is straightforward and storage requirements are modest.
     - Storage requirement comprise of two set of positions $(r(t) \ \text{and} \ r(t-\delta t)) \ \text{and the accelerations } a(t)$ .
-    - The drawback is that the position $r(t+\delta t)$ are obtained by adding small term $(\delta t^2a(t))$ to the different of two much larger therms $2r(t) \ \text{and} \ r(t-\delta t)$.
+    - The drawback is that the position $$r(t+\delta t)$$ are obtained by adding small term $(\delta t^2a(t))$ to the different of two much larger therms $2r(t) \ \text{and} \ r(t-\delta t)$.
         - This can lead to loss of precision.
     - Other limitations
         - lack of explicit velocity term → difficult to obtain velocities and would not be available until next position is calculated.
