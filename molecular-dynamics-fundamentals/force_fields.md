@@ -1,6 +1,5 @@
 # 4. Empirical Force Field Models: Molecular Mechanics (Leach)
-
-# Table of Contents
+Outline adapted from Chapter 4 of Molecular Modelling by Andrew Leach
 
 ## 4.1. Introduction
 
