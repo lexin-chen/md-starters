@@ -128,10 +128,10 @@ $$
     - Effect of the external electric field is to induce dipole in the molecule.
     
 $$
-\mu_{ind}= \alpha\Epsilon 
+\mu_{ind}= \alpha E
 $$   
 
-    - mu is induced dipole moment proportional to the electric field, with the constant of proportionality being the polarizability alpha
+   - mu is induced dipole moment proportional to the electric field, with the constant of proportionality being the polarizability alpha
 - For isolated atoms, polarizability is isotropic
     - does not depend on orientation
 - Interaction between dipole and induced dipole is independent of disorienting effect of thermal motions
