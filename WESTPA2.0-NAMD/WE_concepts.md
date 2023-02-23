@@ -1,4 +1,6 @@
-## Weighted Ensemble Simulation: Review of Methodology, Applications, and Software (2017)
+## Weighted Ensemble Concepts
+
+Takeaways from [Zuckerman and Chong, 2017](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-070816-0338340)
 
 ### Key WE Concepts
 
@@ -68,7 +70,7 @@
 - Each bin can have different targeted # of walkers.
 - Choices to be made (system-specific):
     - bins are constructed
-    - # of walkers are selected
+    - \# of walkers are selected
     - resampling interval needs to be chosen
 
 ### Equilibrium, Steady States, and Kinetics
