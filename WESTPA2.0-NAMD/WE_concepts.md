@@ -1,4 +1,4 @@
-## Weighted Ensemble Concepts
+# Weighted Ensemble Concepts
 
 Takeaways from [Zuckerman and Chong, 2017](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-070816-0338340)
 
