@@ -1,4 +1,4 @@
-# WESTPA/2.0 with NAMD
+# WESTPA2.0 with NAMD
 
 This is helpful if you want to use WESTPA2022.02 edition with NAMD, this code is a modified version of the original [WESTPA code](https://github.com/westpa/westpa).
 
