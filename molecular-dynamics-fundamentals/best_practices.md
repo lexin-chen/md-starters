@@ -68,7 +68,7 @@ condensed phase- not the gas phase; liquid or solid phase or combo.
         - fixed protonation states for the components of the system.
 
 <aside>
-🔑 **bond breaking and forming is generally NOT ALLOWED**.
+    🔑 <b>bond breaking and forming is generally NOT ALLOWED</b>.
 
 - The topology and chemistry of a system will remain constant as a function of time.
 </aside>
@@ -137,7 +137,7 @@ condensed phase- not the gas phase; liquid or solid phase or combo.
         - In a typical MD simulation, it is only a small subset of basins — most accessible configuration to initial structure — that dominates an ensemble.
             - therefore, it is suggested that **multiple MD trajectories starting structures can aid sampling.**
 
-![Erg](img/erg.png)
+<img src="img/erg.png" width="360" height=auto>
 
 - Representation of systems of enormous complexity (# of atoms) and
     - a small number of coordinates or states.
@@ -145,7 +145,7 @@ condensed phase- not the gas phase; liquid or solid phase or combo.
 - **Potential of mean forces** — probability-determining free energy
     - for Continuous coordinate — distance between two residues in a protein
     - Boltzmann factor of a PMF gives the relative probability of a given coordinate
-    - $p_A^{eq}~\sim~ \exp(-F_A/k_bT)$
+    - $p_A^{eq}\sim \exp(-F_A/k_bT)$
     - any type of free energy includes entropic effects
     - entropy is indicated by the
         - width of the basin
@@ -230,9 +230,8 @@ condensed phase- not the gas phase; liquid or solid phase or combo.
     - where exclusions ends.
     - the 1-4 interactions usually have *partial* nonbonded interactions.
         - nonbonded interaction is there but reduced
-        - electrostatics is to $\frac{1
-        }{1.2}$ of original value
-        - lennard jones is $\frac{1}{2}$of original value.
+        - electrostatics is to $\frac{1}{1.2}$ of original value
+        - lennard jones is $\frac{1}{2}$ of original value.
         - they are the borderline between bonded and nonbonded interactions.
         - can be quite strong and wrong to overestimate / underestimate their effect.
 
