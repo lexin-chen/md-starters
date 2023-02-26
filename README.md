@@ -1,4 +1,4 @@
-# The Opioid Project
+# Molecular Dynamics Starters Pack
 
 This repository compiles all of my descriptions/ scripts for my first Ph.D. project, which harnesses supercomputers to investigate ligand-receptor interactions in the µ-opioid receptor, a membrane protein responsible for pain relief. 
 
