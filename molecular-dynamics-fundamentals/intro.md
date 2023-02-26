@@ -32,7 +32,7 @@
     - many approaches to dynamics
         - Newton's equations of motion to solve for atoms of the system and any surrounding solvent.
     - To begin, dynamic simulation, initial set of atomic coordinates and velocities is required.
-        - pdb
+        -  `pdb` file
 
 ### Limitations and prospects
 
