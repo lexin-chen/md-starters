@@ -142,7 +142,7 @@ Problems
     - will increase with increasing dipoles (e.g. quadrupole moment $r^{-5}$)
 - $\int_{0}^{\infty} V^{el}4\pi r^2 dr$
 
-![Untitled](Biomolecular%20Modeling%20Goals,%20Problems,%20Perspective%207dd9ed7171354f25938e3aafcd0e99e0/Untitled.png)
+![electrostatics](img/electrostatics.png)
 
 - Two techniques are used to evaluate long-range (electrostatic) interactions
 
