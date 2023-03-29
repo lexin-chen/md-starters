@@ -1,0 +1,86 @@
+###Lipid Head### 
+
+Colvarstrajfrequency    100
+Colvarsrestartfrequency 100
+
+colvar {
+   name chl1_head_upper
+   distanceZ {
+      ref {
+         dummyAtom ( 0.000, 0.000, 0.000 )
+      }
+      main {
+         atomsFile      restraints/chl1_head_upper.ref 
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+harmonic {
+   colvars chl1_head_upper
+   centers 18
+   forceConstant 0.2
+}
+
+colvar {
+   name popc_head_upper
+   distanceZ {
+      ref {
+         dummyAtom ( 0.000, 0.000, 0.000 )
+      }
+      main {
+         atomsFile      restraints/popc_head_upper.ref 
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+harmonic {
+   colvars popc_head_upper
+   centers 19
+   forceConstant 0.2
+}
+
+colvar {
+   name chl1_head_lower
+   distanceZ {
+      ref {
+         dummyAtom ( 0.000, 0.000, 0.000 )
+      }
+      main {
+         atomsFile      restraints/chl1_head_lower.ref 
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+harmonic {
+   colvars chl1_head_lower
+   centers -18
+   forceConstant 0.2
+}
+
+colvar {
+   name popc_head_lower
+   distanceZ {
+      ref {
+         dummyAtom ( 0.000, 0.000, 0.000 )
+      }
+      main {
+         atomsFile      restraints/popc_head_lower.ref 
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+harmonic {
+   colvars popc_head_lower
+   centers -19
+   forceConstant 0.2
+}
+
+
