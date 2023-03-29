@@ -1,3 +1,3 @@
-# Molecular Dynamics Starters Pack
+# Molecular Dynamics Starters Pack: Membrane Protein Edition
 
-**md-starters** provides code for preparing and analyzing molecular dynamics simulations.
+**md-starters** provides sample code for preparing and analyzing molecular dynamics simulations, mainly for membrane proteins. 
